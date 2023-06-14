@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Vertical Navigation Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 150vh;
+      width: 200px;
+      background-color: lightgreen;
+      color:black;
+      padding: 20px;
+      text-align: center;
+       
+    }
+    
+    .nav h2 {
+      margin: 0;
+    }
+    
+    .header {
+      position: fixed;
+      top: 0px;
+      left: 240px;
+      height: 60px;
+      width: calc(100% - 100px);
+      background-color: yellowgreen;
+      color: black;
+      padding: 20px;
+    }
+    
+    .header h1 {
+      margin: 0;
+    }
+    
+    article {
+      margin-top: 100px;
+      margin-bottom: 60px;
+      margin-left: 240px;
+      margin-right: 240px;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    
+    aside {
+      position: fixed;
+      top: 100px;
+      right: 0;
+      width: 200px;
+      height: calc(140vh - 160px - 160px);
+      padding: 20px;
+      background-color: lightgoldenrodyellow;
+      border: 1px solid #ccc;
+    }
+    
+    footer {
+      position: fixed;
+      bottom: 0;
+      right: 200;
+      width: calc(100% - 280px);
+      height: 60px;
+      background-color: yellowgreen;
+      color: black;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <h2>nav</h2>
+  </div>
+  
+  <div class="header">
+    <h1>Header Name</h1>
+  </div>
+  
+  <article>
+    <p>article.</p>
+  </article>
+  
+  <aside>
+    <h2>Aside</h2>
+  </aside>
+  
+  <footer>
+    <p>Article Footer</p>
+  </footer>
+</body>
+</html>
